@@ -1,0 +1,124 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "image":"https://cdn.pancake.vn/1/s500x500/92/22/3f/96/12621640ac060f728aa7a70080bb9a8b8ddb4b596ec187fa28cbcecf.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 2,
+        "image":"https://cdn.pancake.vn/1/s500x500/91/9d/6a/38/cc74966f727a8456c4fab2c7c9c21a1657b2a7fb5dd376cfe572f125.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 3,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 4,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 5,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 6,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 7,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 8,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 9,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    },
+    {
+        "id": 10,
+        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing"
+    }
+]
+}
