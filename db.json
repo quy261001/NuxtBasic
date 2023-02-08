@@ -2,123 +2,112 @@
     "products": [
     {
         "id": 1,
-        "image":"https://cdn.pancake.vn/1/s500x500/92/22/3f/96/12621640ac060f728aa7a70080bb9a8b8ddb4b596ec187fa28cbcecf.jpg",
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/sportswear-advance-15-hoodie-9vgMRK1-300x300.jpg",
         "price": 199,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.0
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Sportswear Advance 15 Women’s Full-Zip Hoodie is made with soft fleece fabric for all-day warmth and comfort.",
+        "title": "NIKE SPORTSWEAR ADVANCE 15",
+        "category": "MEN’S"
     },
     {
         "id": 2,
-        "image":"https://cdn.pancake.vn/1/s500x500/91/9d/6a/38/cc74966f727a8456c4fab2c7c9c21a1657b2a7fb5dd376cfe572f125.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/kobe-bryant-all-star-edition-swingman-jersey-jordan-nba-connected-jersey-Sv016H1-300x300.jpg",
+        "price": 250,
         "rating": {
             "count": 120,
             "rate": 3.9
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "Inspired by the 2018 All-Star kit, the All-Star Edition Swingman Jersey Men’s Jordan NBA Connected Jersey reps your favourite player while helping keep you cool and comfortable through every move. Details and colours that nod to the LA skyline celebrate this year’s All-Star Weekend.",
+        "title": "KOBE BRYANT ALL-STAR EDITION SWINGMAN JERSEY",
+        "category": "MEN’S"
     },
     {
         "id": 3,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/sportswear-printed-jacket-sR8XbG1.jpg",
+        "price": 439,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.5
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Sportswear Women’s Printed Jacket features lightweight fabric and a half-zip design for custom coverage.",
+        "title": "NIKE SPORTSWEAR",
+        "category": "Women's"
     },
     {
         "id": 4,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/lunarsolo-running-shoe-WyTA797x1-600x600.jpg",
+        "price": 239,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.8
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike LunarSolo Women’s Running Shoe is ready to run when you are. Understated in style yet serious in performance, this versatile shoe provides support and a smooth ride for your workout.",
+        "title": "NIKE LUNARSOLO",
+        "category": "Women's"
     },
     {
         "id": 5,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/vapor-max-air-training-duffel-bag-yJwoN91-600x600.jpg",
+        "price": 569,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.3
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Vapor Max Air Training Duffel Bag provides spacious storage for all your gym essentials, while a water-resistant coating helps keep your gear dry.",
+        "title": "NIKE VAPOR MAX AIR (MEDIUM)",
+        "category": "MEN’S"
     },
     {
         "id": 6,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/brasilia-backpack-T2Dv5R1-600x600.jpg",
+        "price": 545,
         "rating": {
-            "count": 120,
-            "rate": 3.9
+            "count": 235,
+            "rate": 4.7
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Brasilia Kids’ Backpack features a spacious main compartment and padded shoulder straps for ample storage and comfortable carrying.",
+        "title": "NIKE BRASILIA",
+        "category": "MEN’S"
     },
     {
         "id": 7,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/pro-older-short-sleeve-top-bBnd961-600x600.jpg",
+        "price": 790,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.3
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Pro Older Kids’ (Girls’) Short-Sleeve Top combines sweat-wicking technology with mesh fabric to help keep you dry, cool and comfortable at training or when playing with your friends.",
+        "title": "NIKE PRO Older Kids’ (Girls’) Short-Sleeve Top",
+        "category": "Women's"
     },
     {
         "id": 8,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/sportswear-older-trousers-QbxX0R1-600x600.jpg",
+        "price": 212,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.5
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Sportswear Older Kids’ (Boys’) Trousers feature soft jersey fabric and an adjustable waistband for custom comfort.",
+        "title": "Nike Sportswear Trousers",
+        "category": "MEN’S"
     },
     {
         "id": 9,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/strike-football-5DvKpy1-600x600.jpg",
+        "price": 215,
         "rating": {
             "count": 120,
-            "rate": 3.9
+            "rate": 4.7
         },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
-    },
-    {
-        "id": 10,
-        "image":"https://img.meta.com.vn/Data/image/2022/01/13/anh-dep-thien-nhien-3.jpg",
-        "price": 199,
-        "rating": {
-            "count": 120,
-            "rate": 3.9
-        },
-        "description": "Hình ảnh đẹp thiên nhiên chất lượng cao",
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "category": "men's clothing"
+        "description": "The Nike Strike Football features a restricted bladder and a contrast power graphic for consistent feel and easy visual tracking.",
+        "title": "NIKE STRIKE",
+        "category": "MEN’S"
     }
+    
 ]
 }

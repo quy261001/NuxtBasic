@@ -1,5 +1,6 @@
 <template>
-    <div class="grid grid-cols-4 gap-5">
+    <h1 class="text-center my-[40px] font-roboto text-[80px]">SHOP</h1>
+    <div class="grid grid-cols-4 gap-6">
         <div v-for="(item, id) in products" :key="id">
            <ProductCard :product = "item"/>
         </div>
@@ -12,6 +13,9 @@
     })
     // fetch the products
     const {data: products} = await useFetch('http://localhost:3000/products')
+    // async fetch() {
+    //     const {data: products} = await useFetch('http://localhost:3000/products')
+    // }   
     useHead({
     title: 'Nuxt Dojo | Merch',
     meta: [
@@ -21,6 +25,19 @@
 </script>
 
 <style scoped>
+   h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    position: relative;
+   }
+   h1::before {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+   }
    h2 {
         margin-bottom: 20px;
         font-size: 36px;

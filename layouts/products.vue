@@ -1,10 +1,9 @@
 <template>
      <header class="shadow-sm bg-white">
         <nav class="container mx-auto p-4 flex items-center justify-between">
-            <NuxtLink to="/" class="font-bold text-[40px]">NuxtJS</NuxtLink> 
-            <ul class="flex gap-4 text-[18px]">    
-                <li><NuxtLink to="/">Home</NuxtLink></li>
-                <li><NuxtLink to="/products">Products</NuxtLink></li> 
+            <NuxtLink to="/"> <img class="w-[10%]" src="http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/logo-mona.png" alt=""></NuxtLink> 
+            <ul class="flex gap-4 text-[24px] font-bold w-[40%]">
+                <li><NuxtLink to="/" class="flex items-center gap-1"><i class="material-icons text-[24px]">arrow_back</i> Back To Home</NuxtLink></li>        
             </ul>
         </nav>
     </header>
