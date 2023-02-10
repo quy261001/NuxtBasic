@@ -38,7 +38,6 @@
 <script setup>
 
 const {productDetai} = defineProps(['productDetai']);
-
 </script>
 
 <style scoped>
