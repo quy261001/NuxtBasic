@@ -32,7 +32,7 @@
         </div>
     </div>
 <!-- trailer -->
-<div class="sp-container">
+<!-- <div class="sp-container">
 	<div class="sp-content">
 		<div class="sp-globe"></div>
 		<h2 class="frame-1">AWESOME</h2>
@@ -46,7 +46,7 @@
 		</h2>
 		<button @click="closeTrailer" class="sp-circle-link">GO</button>
 	</div>
-</div>
+</div> -->
 </template>
 
 <script setup>  

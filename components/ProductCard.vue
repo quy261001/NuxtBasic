@@ -1,5 +1,5 @@
 <template>
-    <div class="card-main__detail">
+        <div class="card-main__detail">
         <div class="basicInfo">
             <div class="card-container-main">
               <div class="images">
@@ -32,11 +32,14 @@
             </div>
             <div class="price text-[20px] text-[#3BE798]">Price: {{ product.price }}$</div>
         </div>
-    </div>               
+        </div> 
+  
+                  
 </template>
 
 <script setup>
     const {product} = defineProps(['product']);
+    const xp = ref("red")
 </script>
 
 <style scoped>
