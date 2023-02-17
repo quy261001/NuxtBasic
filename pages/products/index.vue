@@ -1,12 +1,9 @@
 <template>
-    <h1 class="text-center my-[40px] font-roboto text-[80px]">SHOP</h1>
-    <div class="grid grid-cols-4 gap-6">
-        <template v-if="!pending" >
-            <div lang="lazy" v-for="(item, id) in products" :key="id">
-           <ProductCard  :product = "item"/>
+    <h1 class="text-center text-[60px] pb-9 pt-8 text-[#fff] }}">Character</h1>
+    <div class="px-[25px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-6"> 
+        <div v-for="(item, id) in products" :key="id">
+                <ProductCard  :product = "item"/>
         </div>
-        </template>
-        <ProductCard v-else>Processing...</ProductCard>
     </div>
 
 </template>
@@ -15,12 +12,12 @@
     definePageMeta({
         layout: 'products'
     })
-    const url = 'http://localhost:3000/products'
+    const url = 'https://63ee0cf4d466e0c18ba84d91.mockapi.io/api/shopxp/Api/'
     //fetch the products
-     const {data: products, pending, errors} = await useAsyncData("product_key", async () => {
-         return $fetch(url)
-     })
-    // const {data: products} = await useFetch('http://localhost:3000/products')
+    //  const {data: products, pending, errors} = await useAsyncData("product_key", async () => {
+    //      return $fetch(url)
+    //  })
+     const {data: products} = await useFetch('https://63ee0cf4d466e0c18ba84d91.mockapi.io/api/shopxp/Api/')
     useHead({
     title: 'Nuxt Dojo | Merch',
     meta: [
@@ -34,14 +31,6 @@
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     position: relative;
-   }
-   h1::before {
-    position: absolute;
-    content: '';
-    border-bottom: 2px solid #eee;
-    width: 100%;
-    left: 0;
-    bottom: 0;
    }
    h2 {
         margin-bottom: 20px;

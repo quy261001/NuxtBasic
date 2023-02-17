@@ -2,19 +2,17 @@
     <img class="img-container" src="@/assets/img/code1.png" alt="">
     <div class="wrapper-main">
         <div class="wrapper-main__content">
-            <img class="img-main" src="https://i.pinimg.com/564x/6f/b0/06/6fb0063875a2e0e6701b0c98f1272b11.jpg" alt="">
             <header class="shadow-sm bg">
                 <nav class="container mx-auto p-2 flex items-center justify-between">
                     <div class="flex items-center gap-10">
                         <div class="w-[12%]">
                             <NuxtLink to="/">
-                                <img src="https://pbs.twimg.com/media/FWxL0vTWQAIF5Uj.jpg" alt="">
+                                <img class="max-w-[125%]" src="@/assets/img/logoS.png" alt="">
                             </NuxtLink>
                         </div> 
                         <ul class="Nav flex gap-10 text-[28px] text-[#fff]">    
-                            <li><NuxtLink to="/">Home</NuxtLink></li> 
-                            <li><NuxtLink to="/about">Character</NuxtLink></li>
-                            <li><NuxtLink to="/products">products</NuxtLink></li>
+                            <li><NuxtLink to="/">Cốt Truyện</NuxtLink></li> 
+                            <li><NuxtLink to="/products">Danh Sách Nhân Vật</NuxtLink></li>
                         </ul>
                     </div>
                     <div class="container-r relative">
@@ -26,25 +24,27 @@
                 </nav>
             </header>
              <!-- Content -->
-            <div class="container p-4 max-w-[55%]">
+            <div class="container p-4">
                 <slot />
             </div>
         </div>
     </div>
 <!-- trailer -->
 <div class="sp-container">
+	<h1 class="text-[red] absolute z-[999999] text-[40px] cursor-pointer font-bold right-0 mr-20 mt-8" @click="skipEvent">SKIP</h1>
 	<div class="sp-content">
 		<div class="sp-globe"></div>
-		<h2 class="frame-1">AWESOME</h2>
-		<h2 class="frame-2">TEXT ANIMATION EFFECT</h2>
-		<h2 class="frame-3">BUILD WITH CSS3</h2>
-		<h2 class="frame-4">TEST IT!</h2>
+		<img class="w-full h-full img-1" src="@/assets/img/BGA1.jpg" alt="">
+		<h2 class="frame-1">Chào mừng bạn</h2>
+		<h2 class="frame-2">Đến với</h2>
+		<h2 class="frame-3">Cốt Truyện </h2>
+		<h2 class="frame-4">Và Nhân Vật!</h2>
 		<h2 class="frame-5">
-			<span>FORK,</span>
-			<span>CHANGE,</span>
-			<span>EXPERIANCE.</span>
+			<span>Solo </span>
+			<span>Leveling</span>
+			<span>gg!</span>
 		</h2>
-		<button @click="closeTrailer" class="sp-circle-link">GO</button>
+		<button @click="closeTrailer" class="sp-circle-link">Bắt Đầu</button>
 	</div>
 </div>
 </template>
@@ -53,6 +53,9 @@
     function closeTrailer() {
         document.querySelector(".sp-container").style.display = 'none'; 
     }
+	function skipEvent() {
+		document.querySelector(".sp-container").style.display = 'none'; 
+	}
 </script>
 
 <style scoped>
@@ -78,7 +81,7 @@
     }
     .wrapper-main__content {
         position: fixed;
-        width: 80%;
+        width: 85%;
         height: 70%;
         left: 50%;
         top: 50%;
@@ -106,6 +109,7 @@
         top: 0;
         right: 22%;
         width: 20%;
+		height: 100%;
     }
 
 
@@ -168,11 +172,12 @@ h1.main, p.demos {
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
 }
-.sp-container h2.frame-1 {
+.sp-container h2.frame-1{
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
 	-ms-animation-delay: 0s;
 	animation-delay: 0s;
+	
 }
 .sp-container h2.frame-2 {
 	-webkit-animation-delay: 3s;
@@ -187,7 +192,7 @@ h1.main, p.demos {
 	animation-delay: 6s;
 }
 .sp-container h2.frame-4 {
-	font-size: 200px;
+	font-size: 100px;
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
