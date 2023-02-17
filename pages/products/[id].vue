@@ -10,8 +10,9 @@
 
 <script setup>
     const { id } = useRoute().params 
+    console.log(id)
 
-    const uri = 'http://localhost:3000/products/' + id
+    const uri = 'https://63ee0cf4d466e0c18ba84d91.mockapi.io/api/shopxp/Api/' + id
     // fetch the 
     const {data: product} = await useFetch(uri, {key: id}) 
     if (!product.value) {

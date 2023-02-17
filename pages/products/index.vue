@@ -53,12 +53,12 @@
     definePageMeta({
         layout: 'products'
     })
-    const url = 'http://localhost:3000/products'
+    const url = 'https://63ee0cf4d466e0c18ba84d91.mockapi.io/api/shopxp/Api/'
     //fetch the products
     //  const {data: products, pending, errors} = await useAsyncData("product_key", async () => {
     //      return $fetch(url)
     //  })
-    const {data: products} = await useFetch('http://localhost:3000/products')
+    const {data: products} = await useFetch('https://63ee0cf4d466e0c18ba84d91.mockapi.io/api/shopxp/Api/')
     useHead({
     title: 'Nuxt Dojo | Merch',
     meta: [
