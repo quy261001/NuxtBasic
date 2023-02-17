@@ -2,6 +2,7 @@
     "products": [
     {
         "id": 1,
+<<<<<<< HEAD
         "image": "https://i.pinimg.com/564x/27/3d/d2/273dd26d55c2755aa0d582e29646ab00.jpg",
         "name": "Sung Jin-Woo",
         "namesp":"성진우",
@@ -19,5 +20,62 @@
         "SkillEnergy": {"Energy": 90},
         "SkillPotential": {"potential": 100}
     } 
+=======
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/sportswear-advance-15-hoodie-9vgMRK1-600x600.jpg",
+        "price": 199,
+        "rating": {
+            "count": 120,
+            "rate": 4.0
+        },
+        "description": "The Nike Sportswear Advance 15 Women’s Full-Zip Hoodie is made with soft fleece fabric for all-day warmth and comfort.",
+        "title": "NIKE SPORTSWEAR ADVANCE 15",
+        "category": "MEN’S",    
+        "xpp": ["100px", "20px", "40px", "60px", "25px"],
+        "titleXpp": ["one", "tow", "three", "for", "file"]
+    },
+    {
+        "id": 2,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/kobe-bryant-all-star-edition-swingman-jersey-jordan-nba-connected-jersey-Sv016H1-300x300.jpg",
+        "price": 250,
+        "rating": {
+            "count": 120,
+            "rate": 3.9
+        },
+        "description": "Inspired by the 2018 All-Star kit, the All-Star Edition Swingman Jersey Men’s Jordan NBA Connected Jersey reps your favourite player while helping keep you cool and comfortable through every move. Details and colours that nod to the LA skyline celebrate this year’s All-Star Weekend.",
+        "title": "KOBE BRYANT ALL-STAR EDITION SWINGMAN JERSEY",
+        "category": "MEN’S",
+        "xpp": ["100px", "20px", "40px", "60px", "25px"],
+        "titleXpp": ["one", "tow", "three", "for", "file"]
+    },
+    {
+        "id": 3,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/sportswear-printed-jacket-sR8XbG1.jpg",
+        "price": 439,
+        "rating": {
+            "count": 120,
+            "rate": 4.5
+        },
+        "description": "The Nike Sportswear Women’s Printed Jacket features lightweight fabric and a half-zip design for custom coverage.",
+        "title": "NIKE SPORTSWEAR",
+        "category": "Women's",
+        "xpp": ["100px", "20px", "40px", "60px", "25px"],
+        "titleXpp": ["one", "tow", "three", "for", "file"]
+    },
+    {
+        "id": 4,
+        "image": "http://mauweb.monamedia.net/bitis/wp-content/uploads/2018/03/lunarsolo-running-shoe-WyTA797x1-600x600.jpg",
+        "price": 239,
+        "rating": {
+            "count": 120,
+            "rate": 4.8
+        },
+        "description": "The Nike LunarSolo Women’s Running Shoe is ready to run when you are. Understated in style yet serious in performance, this versatile shoe provides support and a smooth ride for your workout.",
+        "title": "NIKE LUNARSOLO",
+        "category": "Women's",
+        "xpp": ["100px", "20px", "40px", "60px", "25px"],
+        "titleXpp": ["one", "tow", "three", "for", "file"]
+    }
+    
+>>>>>>> 3141fb69ebe45d75d3854760c268a9c522cf42d3
 ]
 }

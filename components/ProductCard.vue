@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="charater-modal">
         <img class="img-container" src="@/assets/img/BGA1.jpg" alt="">
     </div>
@@ -13,10 +14,49 @@
                  <button class="text-center w-full charater-btn">Chi Tiết</button>
             </NuxtLink>    
     </div>   
+=======
+        <div class="card-main__detail">
+        <div class="basicInfo">
+            <div class="card-container-main">
+              <div class="images">
+                <div class="img">
+                    <div class="item">
+                        <img :src="`${product.image}`">
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+              <div class="title flex items-center flex-col gap-3">
+                <div class="name text-[14px]">{{ product.title }}</div>
+                <div class="category w-[100%] text-[18px]">
+                  {{ product.category }}</div>
+            </div>
+            </div>
+            </div>
+            <NuxtLink :to="`/products/${product.id}`">
+                <div class="addCard">
+                    <i class="material-icons">shopping_bag</i>
+                </div>
+            </NuxtLink>
+           
+        </div>
+        <div class="mores">
+            <div class="stars ">
+               <p class="flex items-center gap-1 text-[#eee] text-[20px]">Rate: {{ product.rating.rate }} 
+                <i class="material-icons text-[#FFFF33]">star</i>
+              </p>
+            </div>
+            <div class="price text-[20px] text-[#3BE798]">Price: {{ product.price }}$</div>
+        </div>
+        </div> 
+  
+                  
+>>>>>>> 3141fb69ebe45d75d3854760c268a9c522cf42d3
 </template>
 
 <script setup>
     const {product} = defineProps(['product']);
+    const xp = ref("red")
 </script>
 
 <style scoped>

@@ -30,8 +30,12 @@
         </div>
     </div>
 <!-- trailer -->
+<<<<<<< HEAD
 <div class="sp-container">
 	<h1 class="text-[red] absolute z-[999999] text-[40px] cursor-pointer font-bold right-0 mr-20 mt-8" @click="skipEvent">SKIP</h1>
+=======
+<!-- <div class="sp-container">
+>>>>>>> 3141fb69ebe45d75d3854760c268a9c522cf42d3
 	<div class="sp-content">
 		<div class="sp-globe"></div>
 		<img class="w-full h-full img-1" src="@/assets/img/BGA1.jpg" alt="">
@@ -46,7 +50,7 @@
 		</h2>
 		<button @click="closeTrailer" class="sp-circle-link">Bắt Đầu</button>
 	</div>
-</div>
+</div> -->
 </template>
 
 <script setup>  
